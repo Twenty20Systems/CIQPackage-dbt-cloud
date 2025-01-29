@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: ciq_raw
+    database: analytics
+    schema: ciq
+    tables:
+      - name: brands
+      - name: customers
+      - name: inventory
+      - name: products
+      - name: regions
+      - name: suppliers
+      - name: cmp_warehouses
+      - name: sales

@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: ciq_silver_sales
+    description: "Aggregated sales summary by region, product, brand, and time summary."
+    columns:
+      - name: Region_Name
+        description: "Name of the region where sales occurred."
+      - name: State
+        description: "State where the sale took place."
+      - name: Zip
+        description: "Zip code of the sales region."
+      - name: Product_Name
+        description: "Name of the product sold."
+      - name: Brand_Name
+        description: "Brand name associated with the product."
+      - name: Time_Summary
+        description: "Time summary bucket (4 weeks, 12 weeks, 26 weeks, 52 weeks)."
+      - name: Dollar_Sales
+        description: "Total sales amount in dollars."
