@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: ciq_silver_sales
+  - name: ciq_bronze_retailsales
     description: "Aggregated sales summary by region, product, brand, and time summary."
     columns:
       - name: Region_Name

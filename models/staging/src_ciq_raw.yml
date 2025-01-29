@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: ciq_raw
     database: analytics
-    schema: ciq
+    schema: ciq_sources
     tables:
       - name: brands
       - name: customers
